@@ -4,120 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech FEST 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header id="inicio">
-    <h1>TechFest 2026</h1>
 
-    <p>El encuentro tecnologico para estudiantes y programadores.</p>
+        <h1>TechFest 2026</h1>
 
-    <nav>
-            <a href="#evento">Evento</a>
-            <a href="#cronograma">Cronograma</a>
-            <a href="#inscripcion">Inscripción</a>
-     </nav>
+        <p>El encuentro tecnologico para estudiantes y programadores.</p>
+
+        <nav>
+                <a href="#evento">Evento</a>
+                <a href="#cronograma">Cronograma</a>
+                <a href="#inscripcion">Inscripción</a>
+        </nav>
 
     </header>
+
+    <main>
+
+        <section id="evento">
+
+            <h2>Sobre el Evento</h2>
+
+            <img src="/Progra 4/Imagenes/images.jfif" alt="">
+
+            <p>TechFest 2026 es un evento destinado a estudiantes, programadores y personas interesadas en la tecnologia.</p>
+            <p>Durante el evento se realizaran charlas sobre el desarrollo web, programación e inteligencia artificial</p>
+
+            <h3>Informacion del evento</h3>
+
+            <p>Fecha: 15 de ocutbre de 2026</p>
+            <p>Lugar: Centro Cultural Tecnológico</p>
+            <p>Modalidad: presencial y virtual</p>
+
+        </section>
     
+        <section id="cronograma">
+            <h2>Cronograma</h2>
 
-    <h2>Sobre el Evento</h2>
+            <table>
+                <thead>
+                    <th>Horario</th>
+                    <th>Actividad</th>
+                    <th>Disertante</th>
+                    <th>Sala</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00</td>
+                        <td>Apertura</td>
+                        <td>Ana Lopez</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td>HTML Y CSS</td>
+                        <td>Juan Perez</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>11:30</td>
+                        <td>JavaScript</td>
+                        <td>Maria Gomez</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td>Inteligencia Artificial</td>
+                        <td>Pedro Ruiz</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td>Cierre</td>
+                        <td>Ana Lopez</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <img src="/Progra 4/Imagenes/images.jfif" alt="">
+        </section>
 
-    <p>TechFest 2026 es un evento destinado a estudiantes, programadores y personas interesadas en la tecnologia.</p>
-    <p>Durante el evento se realizaran charlas sobre el desarrollo web, programación e inteligencia artificial</p>
+        <section id="inscripcion">
+            <h2>Inscripcion</h2>
+            <form>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" placeholder="Ingrese su nombre..." required>
 
-    <h2>Informacion del evento</h2>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" placeholder="Ingrese su apellido..." required>
 
-    <p>Fecha: 15 de ocutbre de 2026</p>
-    <p>Lugar: Centro Cultural Tecnológico</p>
-    <p>Modalidad: presencial y virtual</p>
+                <label for="Email">Email:</label>
+                <input type="text" placeholder="Ingrese su email..." required>
 
-    <h2>Cronograma</h2>
+                <label for="Fecha">Fecha de nacimiento:</label>
+                <input type="date">
 
-    <table>
-        <thead>
-            <th>Horario</th>
-            <th>Actividad</th>
-            <th>Disertante</th>
-            <th>Sala</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>09:00</td>
-                <td>Apertura</td>
-                <td>Ana Lopez</td>
-                <td>A</td>
-            </tr>
-            <tr>
-                <td>10:00</td>
-                <td>HTML Y CSS</td>
-                <td>Juan Perez</td>
-                <td>B</td>
-            </tr>
-            <tr>
-                <td>11:30</td>
-                <td>JavaScript</td>
-                <td>Maria Gomez</td>
-                <td>A</td>
-            </tr>
-            <tr>
-                <td>14:00</td>
-                <td>Inteligencia Artificial</td>
-                <td>Pedro Ruiz</td>
-                <td>C</td>
-            </tr>
-            <tr>
-                <td>16:00</td>
-                <td>Cierre</td>
-                <td>Ana Lopez</td>
-                <td>A</td>
-            </tr>
-        </tbody>
-    </table>
+                <label for="Entrada">Tipo de entrada:</label>
+                <select id="Entrada">
+                    <option>General</option>
+                    <option>Estudiante</option>
+                    <option>VIP</option>
+                </select>
 
-    <h2>Inscripcion</h2>
+                <br>
+                <strong>Modalidad:</strong>
+                <br>
+                <input type="radio"> Presencial
+                <input type="radio"> Virtual
 
-    <form>
-        <label for="Nombre">Nombre:</label>
-        <input type="text" placeholder="Ingrese su nombre...">
+                <br>
 
-        <label for="Apellido">Apellido:</label>
-        <input type="text" placeholder="Ingrese su apellido...">
+                <strong>Intereses:</strong> <br>
+                <input type="checkbox" name="" id="">Desarrollo Web <br>
+                <input type="checkbox" name="" id="">Programacion <br>
+                <input type="checkbox" name="" id="">Inteligencia Artificial <br><br>
 
-        <label for="Email">Email:</label>
-        <input type="text" placeholder="Ingrese su email...">
+                <label for="Comentarios">Comentarios:</label> <br>
+                <textarea name="" placeholder="Inserte su comentario..." rows="7" cols="60"></textarea> <br>
 
-        <label for="Fecha">Fecha de nacimiento:</label>
-        <input type="date">
+                <input type="checkbox" required> Acepto los terminos y condiciones
+                <br>
+                <button type="submit">Inscribirme</button>
+            </form>
+        </section>
 
-        <label for="Entrada">Tipo de entrada:</label>
-        <select id="Entrada">
-            <option>General</option>
-            <option>Estudiante</option>
-            <option>VIP</option>
-        </select>
-
-        <br>
-        <strong>Modalidad:</strong>
-        <br>
-        <input type="radio"> Presencial
-        <input type="radio"> Virtual
-
-        <br>
-
-        <strong>Intereses:</strong> <br>
-        <input type="checkbox" name="" id="">Desarrollo Web <br>
-        <input type="checkbox" name="" id="">Programacion <br>
-        <input type="checkbox" name="" id="">Inteligencia Artificial <br>
-
-        <label for="Comentarios">Comentarios:</label>
-        <textarea name="" placeholder="Inserte su comentario..."></textarea>
-
-        <input type="checkbox" name="" id=""> Acepto los terminos y condiciones
-
-        <button>Inscribirme</button>
-    </form>
+    </main>
 
     <footer>
         <p>&copy; 2026 TechFest</p>
