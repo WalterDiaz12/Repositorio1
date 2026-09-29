@@ -6,15 +6,19 @@
     <title>Tech FEST 2026</title>
 </head>
 <body>
+    <header id="inicio">
     <h1>TechFest 2026</h1>
 
     <p>El encuentro tecnologico para estudiantes y programadores.</p>
 
-    <div class="botones">
-        <button>Evento</button>
-        <button>Cronograma</button>
-        <button>Inscripcion</button>
-    </div>
+    <nav>
+            <a href="#evento">Evento</a>
+            <a href="#cronograma">Cronograma</a>
+            <a href="#inscripcion">Inscripción</a>
+     </nav>
+
+    </header>
+    
 
     <h2>Sobre el Evento</h2>
 
@@ -93,13 +97,32 @@
             <option>Estudiante</option>
             <option>VIP</option>
         </select>
-        
+
+        <br>
+        <strong>Modalidad:</strong>
+        <br>
+        <input type="radio"> Presencial
+        <input type="radio"> Virtual
+
+        <br>
+
+        <strong>Intereses:</strong> <br>
+        <input type="checkbox" name="" id="">Desarrollo Web <br>
+        <input type="checkbox" name="" id="">Programacion <br>
+        <input type="checkbox" name="" id="">Inteligencia Artificial <br>
+
+        <label for="Comentarios">Comentarios:</label>
+        <textarea name="" placeholder="Inserte su comentario..."></textarea>
+
+        <input type="checkbox" name="" id=""> Acepto los terminos y condiciones
+
+        <button>Inscribirme</button>
     </form>
 
+    <footer>
+        <p>&copy; 2026 TechFest</p>
+        <a href="#inicio">Volver al inicio</a>
+    </footer>
 
-
-
-
-    
 </body>
 </html>
